@@ -15,27 +15,32 @@
 			width: 70%;
 			padding: 72px auto 0;
 		}
+		header h1 {
+			text-transform: uppercase;
+			font-family:serif;
+		}
 		header h2 {
 			font-family: serif;
 		}
 		
-		h1 {
-			text-transform: uppercase;
-			font-family:serif;
-		}
 		figure {
-			width: :200px;
 			padding: 10px 10px 10px 0;
-			margin: 5px;
-			
+			margin: 5px 0;		
 		}
+		img {
+			height:auto;
+			width:auto;
+			max-width: 400px;
+			max-height:400px;
+		}
+
 		article {
 			margin: 0 auto;
 			padding:0 auto;
 			width: 70%;
 		}
 		ul {
-			/*margin-left: 10px;*/
+			margin-left: -15px;
 		}
 		figcaption {
 			padding: 4px 4px 0 4px;
@@ -49,6 +54,7 @@
 		}
 		.lft {
 			float:left;
+
 		}
 		.red-box{
 			background-color: red;
@@ -63,11 +69,8 @@
 		.red-box h2{
 			color:lightgray;
 		}
-		.happy-bear {
-			height: 400px;
-		}
+		
   
-
 	</style>
 </head>
 <body>
@@ -84,55 +87,44 @@
 			<h3>August 1, 2017 || By: Shannon Plunket</h3>
 		</div>
 
-		<div class="content-container">
-			
-			<figure class="rgt">
-				<img src="./images/polar-bears-whisper.jpg" class="polar-bears-whisper" >
-				<figcaption>Polar bears having a conversation</figcaption>
-			</figure>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet ligula sit amet enim eleifend, quis maximus quam tempor. Donec tempor turpis neque, in vestibulum nunc convallis eget. Suspendisse quam quam, condimentum nec lectus in, molestie lacinia ante. Praesent ac pretium eros. Ut rutrum porta lorem sed rhoncus. Nullam pretium augue ante, sit amet fringilla enim egestas vel. Quisque augue odio, dignissim in mi sed, ultricies ornare quam. Praesent vehicula sit amet libero blandit tempus. Fusce condimentum pharetra metus, quis semper ex bibendum ac. Donec eu feugiat neque, vitae varius turpis. Sed et massa aliquet, sagittis magna vel, dignissim ante. Sed suscipit, nisi sed iaculis malesuada, lectus ante vulputate tellus, in viverra elit velit eu elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean pellentesque pulvinar lacus, sed semper leo elementum eget. Nunc ac dapibus orci, eget feugiat nibh.</p>
+		<figure class="rgt">
+			<img src="./images/polar-bears-whisper.jpg" class="polar-bears-whisper" >
+			<figcaption>Polar bears having a conversation</figcaption>
+		</figure>
 
-			<p>Morbi quis malesuada mi. Etiam ex mi, fringilla at lectus eu, molestie pellentesque lorem. Nulla facilisi. Proin volutpat cursus lacinia. Quisque ultrices condimentum mauris eu viverra. Etiam vitae consectetur dolor. Aenean dapibus ligula in massa sollicitudin aliquet. Nulla nec egestas urna. Proin tempor mi at enim euismod fringilla. Praesent non rutrum turpis. Sed ultrices in quam egestas accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet ligula sit amet enim eleifend, quis maximus quam tempor. Donec tempor turpis neque, in vestibulum nunc convallis eget. Suspendisse quam quam, condimentum nec lectus in, molestie lacinia ante. Praesent ac pretium eros. Ut rutrum porta lorem sed rhoncus. Nullam pretium augue ante, sit amet fringilla enim egestas vel. Quisque augue odio, dignissim in mi sed, ultricies ornare quam. Praesent vehicula sit amet libero blandit tempus. Fusce condimentum pharetra metus, quis semper ex bibendum ac. Donec eu feugiat neque, vitae varius turpis. Sed et massa aliquet, sagittis magna vel, dignissim ante. Sed suscipit, nisi sed iaculis malesuada, lectus ante vulputate tellus, in viverra elit velit eu elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean pellentesque pulvinar lacus, sed semper leo elementum eget. Nunc ac dapibus orci, eget feugiat nibh.</p>
 
+		<p>Morbi quis malesuada mi. Etiam ex mi, fringilla at lectus eu, molestie pellentesque lorem. Nulla facilisi. Proin volutpat cursus lacinia. Quisque ultrices condimentum mauris eu viverra. Etiam vitae consectetur dolor. Aenean dapibus ligula in massa sollicitudin aliquet. Nulla nec egestas urna. Proin tempor mi at enim euismod fringilla. Praesent non rutrum turpis. Sed ultrices in quam egestas accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 
-			
-			<ul>
-				<li>Nam at ipsum semper, lobortis enim at, imperdiet felis.</li>
-				<li>Pellentesque at lacus commodo, cursus nunc a, ultrices enim.</li>
-				<li>Duis in dolor vitae dolor tincidunt placerat non sed dui.</li>
-			</ul>
+		<ul>
+			<li>Nam at ipsum semper, lobortis enim at, imperdiet felis.</li>
+			<li>Pellentesque at lacus commodo, cursus nunc a, ultrices enim.</li>
+			<li>Duis in dolor vitae dolor tincidunt placerat non sed dui.</li>
+		</ul>
 
+		<figure class="lft">
+			<img src="./images/grizzlies-argue.jpg" class="grizzlies">
+		</figure>
 
+		<p>Pellentesque dictum orci sit amet quam gravida consequat. Cras et est fermentum, tincidunt lorem vitae, dapibus urna. Integer maximus accumsan dui, sed lacinia eros convallis quis. Nulla dignissim placerat odio, sit amet vehicula mi aliquam eu. Aliquam consectetur accumsan tempor. Pellentesque at tristique nibh, id auctor nunc. Ut justo nulla, vulputate eu rutrum ac, eleifend quis tortor. Ut orci nunc, convallis non nisl at, aliquet venenatis orci. Maecenas vel metus varius, placerat mauris et, scelerisque orci.</p>
+
+		<figure  class="rgt">
+			<img src="./images/happy-bear.jpg">
+			<figcaption>Grizzlies appear to be most social</figcaption>
+		</figure>
+
+		<p>Aliquam id nulla semper, hendrerit ipsum sed, ultrices diam. Suspendisse interdum risus at molestie ullamcorper. Nullam consectetur erat aliquet nisl blandit dapibus. Cras laoreet commodo porta. Pellentesque sodales porttitor massa, pellentesque pulvinar nisi posuere sit amet. Curabitur in libero accumsan, vulputate lorem et, aliquet ex. Integer eleifend ante neque, in placerat nisl iaculis et. Fusce finibus dictum diam, vitae pretium lorem luctus facilisis.</p>
+	
+		<p>Phasellus mauris nisi, consectetur congue fringilla vel, luctus quis odio. Nunc facilisis blandit dignissim. Aliquam non facilisis dui. Aenean dictum iaculis pulvinar. Integer tristique venenatis lacus, eget porttitor orci viverra sit amet. Aliquam erat volutpat. Praesent varius quis massa ut eleifend. Morbi posuere vehicula elit, vitae facilisis libero gravida eget. Curabitur mauris justo, volutpat ac varius ut, mattis vel sapien. Sed vel eros quis leo lobortis faucibus ac id arcu. Aenean dignissim libero elit, id venenatis ipsum lacinia et. Vivamus at eleifend tellus.</p>
 			<figure class="lft">
-				<img src="./images/grizzlies-argue.jpg" class="grizzlies">
-			</figure>
-
-			<p>Pellentesque dictum orci sit amet quam gravida consequat. Cras et est fermentum, tincidunt lorem vitae, dapibus urna. Integer maximus accumsan dui, sed lacinia eros convallis quis. Nulla dignissim placerat odio, sit amet vehicula mi aliquam eu. Aliquam consectetur accumsan tempor. Pellentesque at tristique nibh, id auctor nunc. Ut justo nulla, vulputate eu rutrum ac, eleifend quis tortor. Ut orci nunc, convallis non nisl at, aliquet venenatis orci. Maecenas vel metus varius, placerat mauris et, scelerisque orci.</p>
-
-			<figure  class="rgt">
-				<img src="./images/happy-bear.jpg" class="happy-bear">
-				<figcaption>Grizzlies appear to be most social</figcaption>
+				<img src="./images/pandas.jpg" class="panda" >
 			</figure>
 
 
-			<p>Aliquam id nulla semper, hendrerit ipsum sed, ultrices diam. Suspendisse interdum risus at molestie ullamcorper. Nullam consectetur erat aliquet nisl blandit dapibus. Cras laoreet commodo porta. Pellentesque sodales porttitor massa, pellentesque pulvinar nisi posuere sit amet. Curabitur in libero accumsan, vulputate lorem et, aliquet ex. Integer eleifend ante neque, in placerat nisl iaculis et. Fusce finibus dictum diam, vitae pretium lorem luctus facilisis.</p>
+		<p>Duis et convallis neque. Sed in ante venenatis, facilisis eros ut, vulputate justo. In interdum quam est, vitae congue risus placerat quis. Suspendisse dapibus elit vitae magna lacinia, non maximus enim tempus. Pellentesque et euismod eros. Nulla nec tristique odio, at pellentesque dolor. Proin ac auctor neque, at iaculis risus. Aenean eu dolor augue. Proin in sapien dolor. Curabitur molestie lobortis sapien. Nulla ipsum ex, convallis et vulputate vitae, semper nec libero.</p>
 
-
-			
-
-			<p>Phasellus mauris nisi, consectetur congue fringilla vel, luctus quis odio. Nunc facilisis blandit dignissim. Aliquam non facilisis dui. Aenean dictum iaculis pulvinar. Integer tristique venenatis lacus, eget porttitor orci viverra sit amet. Aliquam erat volutpat. Praesent varius quis massa ut eleifend. Morbi posuere vehicula elit, vitae facilisis libero gravida eget. Curabitur mauris justo, volutpat ac varius ut, mattis vel sapien. Sed vel eros quis leo lobortis faucibus ac id arcu. Aenean dignissim libero elit, id venenatis ipsum lacinia et. Vivamus at eleifend tellus.</p>
-				<figure class="lft">
-					<img src="./images/pandas.jpg" class="panda" >
-				</figure>
+		<p>Proin sed arcu sapien. Phasellus molestie urna et ante eleifend vehicula. Aliquam vel magna vitae neque dictum pellentesque. In semper finibus ante, a ornare nulla volutpat et. Duis elementum pharetra libero, ut lacinia enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit mauris in ex facilisis tempus. Nam ac sapien justo. Morbi est odio, pretium quis tincidunt sed, ultricies eget nisl. Nunc semper sapien et ipsum eleifend rhoncus. Morbi volutpat eleifend tincidunt. Nulla facilisi. Sed eros purus, mollis ac tortor eu, dignissim egestas turpis. Sed vel velit scelerisque metus consectetur scelerisque.</p>
 		
-
-			<p>Duis et convallis neque. Sed in ante venenatis, facilisis eros ut, vulputate justo. In interdum quam est, vitae congue risus placerat quis. Suspendisse dapibus elit vitae magna lacinia, non maximus enim tempus. Pellentesque et euismod eros. Nulla nec tristique odio, at pellentesque dolor. Proin ac auctor neque, at iaculis risus. Aenean eu dolor augue. Proin in sapien dolor. Curabitur molestie lobortis sapien. Nulla ipsum ex, convallis et vulputate vitae, semper nec libero.</p>
-
-			<p>Proin sed arcu sapien. Phasellus molestie urna et ante eleifend vehicula. Aliquam vel magna vitae neque dictum pellentesque. In semper finibus ante, a ornare nulla volutpat et. Duis elementum pharetra libero, ut lacinia enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit mauris in ex facilisis tempus. Nam ac sapien justo. Morbi est odio, pretium quis tincidunt sed, ultricies eget nisl. Nunc semper sapien et ipsum eleifend rhoncus. Morbi volutpat eleifend tincidunt. Nulla facilisi. Sed eros purus, mollis ac tortor eu, dignissim egestas turpis. Sed vel velit scelerisque metus consectetur scelerisque.</p>
-		</div>
-
-
-
 	</article>
 </body>
 </html>
